@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+}
+
+.leftSide {
+  float: left;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightSide {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  height: 5rem;
+  width: 10rem;
+}
+
+.profilePic {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+video {
+  height: 100vh;
+  width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .leftSide {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rightSide {
+    display: hidden;
+  }
+  .items {
+    display: none;
+  }
+}

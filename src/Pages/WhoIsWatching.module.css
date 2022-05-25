@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.wisContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 0.3rem;
+}
+
+.img:hover {
+  border: 3px solid white;
+}
+
+.btn {
+  color: white !important;
+  margin: 5rem 0 0 0;
+  background-color: black;
+}
+
+.logoDiv {
+  margin-left: 0;
+  background-color: black;
+}
+.logo {
+  height: 5rem;
+  width: 10rem;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    justify-content: center;
+  }
+
+  .wisContainer {
+    margin: 0 0 5rem 0;
+  }
+  .img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}
